@@ -1,0 +1,261 @@
+body, html, #root {
+height:100% !important; 
+background: #f8f8fa;
+font-size: 14px;
+line-height: 22px;
+color: #444444;
+min-height: 100vh;
+position: relative;
+-webkit-text-size-adjust: none;
+background-attachment: fixed; 
+}
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 30px;
+  height: 23px;
+  left: 36px;
+  top: 20px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #fff;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: rgb(57,120,110);
+background: linear-gradient(90deg, rgba(57,120,110,1) 0%, rgba(210,153,33,1) 100%, rgba(210,153,33,1) 100%);
+
+  padding: 2.5em 0.5em 0;
+  font-size: 1.15em;
+overflow:hidden !important;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.menu-item{
+  display: block;
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+.bm-item-list main:focus{
+  border:0px;
+  outline: -webkit-focus-ring-color auto 0px;
+}
+main {
+  height: 100%;
+  overflow: auto;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.75em;
+}
+a {
+  color: #4e4a46;
+  text-decoration: none;
+}
+
+.side-button {
+  display: inline-block;
+  width: 5em;
+  height: 2.5em;
+  line-height: 2.5em;
+  cursor: pointer;
+  background: #fffce1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.8em;
+  font-weight: 800;
+}
+
+.side-button.left {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.side-button.active {
+  background: #c94e50;
+  color: #fffce1;
+}
+.side-button.right {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.description {
+  max-width: 20em;
+  margin: 1.2em auto 1em;
+  line-height: 1.3em;
+  font-weight: 400;
+}
+.screen {
+  height: 60%;
+}
+.wrapper {
+  width: 100%;
+  min-width: 400px;
+  max-width: 2000px;
+}
+.block {
+  display: inline-block;
+  vertical-align: top;
+}
+.actionspace {
+  padding-left: 40px;
+  padding-top: 3px;
+}
+.maintitle {
+  font-size: 230%;
+  margin-bottom: 20px;
+  line-height: 1.2em;
+}
+
+/*---Header Css----*/
+
+.header{
+  padding: 15px 10px;
+  width: 100%;
+  background:#ececf1;
+}
+.badge {
+  display: inline-block;
+  padding: .25em .4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 1.25rem !important;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  position: relative;
+  top: -10px;
+  left: -6px;
+}
+.logo{
+  width: 85px;
+  
+}
+
+/*----Section Css----*/
+section{
+  padding: 10px 10px;
+}
+.heading{
+  margin-bottom: 20px;
+}
+.dashboard_box{
+  background: #459487;
+  padding: 10px;
+  border-radius:5px;
+  margin-bottom: 20px;
+}
+
+.media{
+  margin-bottom:20px;
+  color: #ffffff;
+}
+.media .media-heading{
+  font-size: 12px;
+    color: #dbe9e7;
+    font-weight: 700;
+}
+.media-body{
+  text-align: center;
+}
+.media a{
+  background: #63a39a;
+    width: 50px;
+    height: 48px;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 12px 12px;
+    color: #e9c946;
+}
+.pull-right{
+  float:right;
+}
+.pull-left{
+  float:left
+}
+.bottom-part{
+  color: #d0e3df;
+}
+
+.panel{
+  background: #fff;
+  padding:20px 10px;
+}
+.panel .panel-heading{
+  margin-bottom: 40px;
+}
+.month-text{
+  margin-bottom: 20px;
+  margin-top:10px;
+  display: block;
+}
+.piechart-containter h3{
+  font-weight: 800;
+}
+.piechart-containter{
+  text-align: center;
+}
+.sales_analytics{
+  padding:0px 20px;
+}
+.sales_analytics > div {
+  display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-bottom: 1px solid #f2f2f2;
+}
